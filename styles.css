@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #ff0000; /* Vermelho carregado */
+  color: #ffffff; /* Branco */
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.number-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid #000;
+  background-color: #000000; /* Preto */
+  width: 80%;
+  max-width: 600px;
+  height: 200px; /* Grande mesmo quando vazio */
+  overflow-y: auto;
+  white-space: pre-wrap; /* Preserve whitespace formatting */
+  color: #00ff00; /* Verde para contraste */
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Azul */
+  color: white;
+  box-shadow: 0 5px #0056b3; /* Sombra para efeito 3D */
+}
+
+button:active {
+  background-color: #0056b3;
+  box-shadow: 0 2px #003d80;
+  transform: translateY(2px); /* Efeito de clique 3D */
+}
